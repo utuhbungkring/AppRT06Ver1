@@ -1,47 +1,18 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="theme-color" content="#4CAF50" />
-  <title>APLIKASI RT06 RANTAU KEMINTING</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #eee;
-      overflow: hidden;
-    }
-
-    .iframe-container {
-      width: 100%;
-      height: 100dvh;
-      overflow: hidden;
-    }
-
-    iframe {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Buka Aplikasi RT06</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; }
+        button { background-color: #4CAF50; color: white; padding: 15px 32px; font-size: 16px; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+    </style>
 </head>
 <body>
-  <div class="iframe-container">
-    <iframe
-      id="app"
-      src="https://script.google.com/macros/s/AKfycbx2kUI9hELjA0UfHiU713CbqGhfV0YRSkL-froLp7LAWMyQlZTV0JSxY6iIr5yPxR-x/exec"
-      scrolling="yes"
-      allowfullscreen="true"
-      webkitallowfullscreen="true"
-      mozallowfullscreen="true"
-      allow="fullscreen; camera; microphone; display-capture; geolocation;">
-    </iframe>
-  </div>
+    <h2>Aplikasi RT06 Rantau Keminting</h2>
+    <button onclick="window.open('https://script.google.com/macros/s/AKfycbx2kUI9hELjA0UfHiU713CbqGhfV0YRSkL-froLp7LAWMyQlZTV0JSxY6iIr5yPxR-x/exec', '_blank')">
+        Buka Aplikasi
+    </button>
 </body>
 </html>
